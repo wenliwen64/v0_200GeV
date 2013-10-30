@@ -1,0 +1,1500 @@
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1050.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1050.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1050.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1050.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1049.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1049.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1049.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1049.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1048.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1048.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1048.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1048.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1047.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1047.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1047.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1047.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1046.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1046.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1046.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1046.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1045.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1045.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1045.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1045.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1044.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1044.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1044.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1044.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1043.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1043.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1043.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1043.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1042.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1042.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1042.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1042.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1041.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1041.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1041.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1041.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1040.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1040.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1040.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1040.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1039.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1039.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1039.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1039.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1038.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1038.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1038.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1038.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1037.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1037.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1037.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1037.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1036.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1036.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1036.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1036.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1035.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1035.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1035.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1035.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1034.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1034.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1034.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1034.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1033.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1033.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1033.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1033.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1032.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1032.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1032.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1032.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1031.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1031.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1031.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1031.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1030.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1030.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1030.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1030.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1029.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1029.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1029.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1029.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1028.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1028.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1028.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1028.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1027.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1027.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1027.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1027.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1026.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1026.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1026.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1026.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1025.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1025.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1025.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1025.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1024.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1024.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1024.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1024.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1023.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1023.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1023.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1023.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1022.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1022.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1022.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1022.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1021.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1021.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1021.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1021.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1020.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1020.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1020.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1020.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1019.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1019.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1019.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1019.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1018.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1018.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1018.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1018.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1017.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1017.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1017.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1017.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1016.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1016.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1016.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1016.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1015.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1015.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1015.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1015.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1014.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1014.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1014.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1014.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1013.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1013.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1013.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1013.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1012.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1012.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1012.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1012.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1011.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1011.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1011.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1011.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1010.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1010.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1010.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1010.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1009.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1009.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1009.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1009.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1008.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1008.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1008.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1008.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1007.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1007.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1007.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1007.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1006.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1006.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1006.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1006.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1005.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1005.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1005.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1005.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1004.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1004.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1004.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1004.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1003.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1003.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1003.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1003.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1002.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1002.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1002.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1002.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1001.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1001.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1001.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1001.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1000.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1000.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_1000.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_1000.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_999.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_999.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_999.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_999.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_998.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_998.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_998.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_998.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_997.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_997.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_997.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_997.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_996.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_996.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_996.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_996.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_995.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_995.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_995.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_995.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_994.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_994.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_994.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_994.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_993.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_993.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_993.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_993.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_992.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_992.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_992.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_992.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_991.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_991.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_991.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_991.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_990.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_990.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_990.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_990.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_989.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_989.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_989.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_989.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_988.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_988.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_988.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_988.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_987.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_987.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_987.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_987.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_986.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_986.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_986.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_986.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_985.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_985.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_985.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_985.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_984.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_984.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_984.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_984.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_983.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_983.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_983.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_983.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_982.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_982.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_982.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_982.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_981.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_981.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_981.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_981.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_980.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_980.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_980.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_980.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_979.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_979.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_979.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_979.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_978.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_978.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_978.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_978.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_977.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_977.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_977.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_977.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_976.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_976.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_976.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_976.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_975.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_975.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_975.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_975.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_974.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_974.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_974.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_974.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_973.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_973.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_973.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_973.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_972.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_972.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_972.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_972.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_971.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_971.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_971.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_971.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_970.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_970.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_970.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_970.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_969.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_969.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_969.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_969.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_968.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_968.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_968.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_968.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_967.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_967.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_967.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_967.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_966.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_966.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_966.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_966.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_965.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_965.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_965.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_965.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_964.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_964.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_964.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_964.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_963.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_963.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_963.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_963.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_962.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_962.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_962.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_962.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_961.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_961.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_961.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_961.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_960.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_960.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_960.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_960.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_959.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_959.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_959.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_959.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_958.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_958.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_958.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_958.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_957.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_957.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_957.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_957.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_956.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_956.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_956.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_956.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_955.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_955.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_955.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_955.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_954.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_954.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_954.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_954.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_953.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_953.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_953.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_953.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_952.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_952.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_952.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_952.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_951.csh
+Output         = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_951.out
+Error          = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/A702E860D9CCE027669EF26E4CA97157_951.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedA702E860D9CCE027669EF26E4CA97157_951.condor.log
+Initialdir     = /star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+

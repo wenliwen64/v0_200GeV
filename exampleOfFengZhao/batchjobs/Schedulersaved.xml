@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<job  minFilesPerProcess="1" maxFilesPerProcess="2" fileListSyntax="paths"> 
+   <command>
+	/star/u/fengzhao/ucla/prog/run10auau200/v0_39GeV/runv0.csh $FILELIST $INPUTFILECOUNT 0 output/ $JOBID
+   </command>
+   <!-- please change the output paths to valid folders where you have write permission -->
+   <stdout URL="file:/star/u/fengzhao/ucla/prog/run10auau200/v0_39GeV/output/$JOBID.out"/>
+   <stderr URL="file:/star/u/fengzhao/ucla/prog/run10auau200/v0_39GeV/output/$JOBID.err"/>
+
+   <input URL="filelist:/star/u/fengzhao/ucla/prog/run10auau200/v0_39GeV/batchjobs/SecondRun.list" singleCopy="true" nFiles="all" />
+
+</job>
+
+      

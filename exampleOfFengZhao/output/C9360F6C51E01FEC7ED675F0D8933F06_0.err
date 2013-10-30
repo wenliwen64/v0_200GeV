@@ -1,0 +1,3 @@
+Error in <TClass::BuildRealData>: Cannot find any ShowMembers function for StV0I!
+Error in <TClass::BuildRealData>: Cannot find any ShowMembers function for StXiI!
+Error in <TXNetFile::CreateXClient>: open attempt failed on root://xrdstar.rcf.bnl.gov:1095//home/starreco/reco/AuAu27_production_2011/FullField/P11id/2011/172/12172024/st_physics_adc_12172024_raw_1500001.MuDst.root

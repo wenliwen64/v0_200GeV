@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<job  minFilesPerProcess="5" maxFilesPerProcess="10" fileListSyntax="xrootd"> 
+   <command>
+	/star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/runv0.csh $FILELIST $INPUTFILECOUNT 0 output/ $JOBID
+   </command>
+   <!-- please change the output paths to valid folders where you have write permission -->
+   <stdout URL="file:/star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/$JOBID.out"/>
+   <stderr URL="file:/star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/output/$JOBID.err"/>
+
+   <input URL="catalog:star.bnl.gov?storage=HPSS,production=P11id,trgsetupname=AuAu27_production_2011,filetype=daq_reco_MuDst,filename~st_physics" nFiles="100" />
+
+</job>
+

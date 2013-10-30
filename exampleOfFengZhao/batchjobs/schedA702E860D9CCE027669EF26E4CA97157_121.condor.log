@@ -1,0 +1,23 @@
+000 (1755400.000.000) 11/14 02:20:10 Job submitted from host: <130.199.206.69:49450>
+...
+001 (1755400.000.000) 11/15 16:53:32 Job executing on host: <130.199.206.203:48345>
+...
+006 (1755400.000.000) 11/15 16:53:40 Image size of job updated: 135280
+...
+006 (1755400.000.000) 11/15 16:58:40 Image size of job updated: 283728
+...
+006 (1755400.000.000) 11/15 17:03:40 Image size of job updated: 295092
+...
+006 (1755400.000.000) 11/15 17:08:40 Image size of job updated: 297500
+...
+005 (1755400.000.000) 11/15 17:14:10 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:17:57, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:17:57, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+...

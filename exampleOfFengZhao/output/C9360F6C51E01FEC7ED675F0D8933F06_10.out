@@ -1,0 +1,138 @@
+We are starting on node: rcas6455.rcf.bnl.gov
+HOME is not defined
+Using getent method
+HOME is now /star/u/fengzhao
+--------------------------------
+STAR Unified Meta Scheduler 1.10.8 we are starting in $SCRATCH : /home/tmp/fengzhao/C9360F6C51E01FEC7ED675F0D8933F06_10
+--------------------------------
+total 0
+  *******************************************
+  *                                         *
+  *        W E L C O M E  to  R O O T       *
+  *                                         *
+  *   Version   5.22/00  17 December 2008   *
+  *                                         *
+  *  You are welcome to visit our Web site  *
+  *          http://root.cern.ch            *
+  *                                         *
+  *******************************************
+
+ROOT 5.22/00 (trunk@26997, Feb 10 2012, 12:57:00 on linux)
+
+CINT/ROOT C/C++ Interpreter version 5.16.29, Jan 08, 2008
+Type ? for help. Commands must be C++ statements.
+Enclose multiple statements between { }.
+*** Float Point Exception is OFF ***
+ *** Start at Date : Tue Jul  2 20:18:00 2013
+QAInfo:You are using STAR_LEVEL : SL11d, ROOT_LEVEL : 5.22.00 and node : rcas6455.rcf.bnl.gov 
+
+Processing reconstruct_v0.C("/star/u/fengzhao/ucla/prog/run11auau/v0_27GeV/batchjobs/schedC9360F6C51E01FEC7ED675F0D8933F06_10.list",5,0,"output/","C9360F6C51E01FEC7ED675F0D8933F06_10")...
+strangeArrayNames-arrayNames-__NARRAYS__ = 0
+ loading of shared libraries done
+##### void StMuDstMaker::setProbabilityPidFile(const char*) ##### ATTENTION: pid table hardwired to /afs/rhic.bnl.gov/star/packages/SL11d/StarDb/dEdxModel/PIDTableP01gl.root
+StInfo: StMuDstMaker::SetStatus 0 to MuEvent
+StInfo: StMuDstMaker::SetStatus 0 to PrimaryVertices
+StInfo: StMuDstMaker::SetStatus 0 to PrimaryTracks
+StInfo: StMuDstMaker::SetStatus 0 to GlobalTracks
+StInfo: StMuDstMaker::SetStatus 0 to OtherTracks
+StInfo: StMuDstMaker::SetStatus 0 to L3Tracks
+StInfo: StMuDstMaker::SetStatus 0 to RichSpectra
+StInfo: StMuDstMaker::SetStatus 0 to DetectorStates
+StInfo: StMuDstMaker::SetStatus 0 to L3AlgoAccept
+StInfo: StMuDstMaker::SetStatus 0 to L3AlgoReject
+StInfo: StMuDstMaker::SetStatus 0 to CovGlobTrack
+StInfo: StMuDstMaker::SetStatus 0 to CovPrimTrack
+StInfo: StMuDstMaker::SetStatus 0 to pp2pp
+StInfo: StMuDstMaker::SetStatus 0 to mtd
+StInfo: StMuDstMaker::SetStatus 0 to Event
+StInfo: StMuDstMaker::SetStatus 0 to McEvent
+StInfo: StMuDstMaker::SetStatus 0 to V0
+StInfo: StMuDstMaker::SetStatus 0 to McV0
+StInfo: StMuDstMaker::SetStatus 0 to V0Assoc
+StInfo: StMuDstMaker::SetStatus 0 to Xi
+StInfo: StMuDstMaker::SetStatus 0 to McXi
+StInfo: StMuDstMaker::SetStatus 0 to XiAssoc
+StInfo: StMuDstMaker::SetStatus 0 to Kink
+StInfo: StMuDstMaker::SetStatus 0 to McKink
+StInfo: StMuDstMaker::SetStatus 0 to KinkAssoc
+StInfo: StMuDstMaker::SetStatus 0 to StrangeCuts
+StInfo: StMuDstMaker::SetStatus 0 to StMuMcVertex
+StInfo: StMuDstMaker::SetStatus 0 to StMuMcTrack
+StInfo: StMuDstMaker::SetStatus 0 to EmcTow
+StInfo: StMuDstMaker::SetStatus 0 to EmcPrs
+StInfo: StMuDstMaker::SetStatus 0 to EmcSmde
+StInfo: StMuDstMaker::SetStatus 0 to EmcSmdp
+StInfo: StMuDstMaker::SetStatus 0 to EEmcPrs
+StInfo: StMuDstMaker::SetStatus 0 to EEmcSmdu
+StInfo: StMuDstMaker::SetStatus 0 to EEmcSmdv
+StInfo: StMuDstMaker::SetStatus 0 to PmdHit
+StInfo: StMuDstMaker::SetStatus 0 to CpvHit
+StInfo: StMuDstMaker::SetStatus 0 to PmdCluster
+StInfo: StMuDstMaker::SetStatus 0 to CpvCluster
+StInfo: StMuDstMaker::SetStatus 0 to FmsHit
+StInfo: StMuDstMaker::SetStatus 0 to TofHit
+StInfo: StMuDstMaker::SetStatus 0 to TofData
+StInfo: StMuDstMaker::SetStatus 0 to TofRawData
+StInfo: StMuDstMaker::SetStatus 0 to BTofHit
+StInfo: StMuDstMaker::SetStatus 0 to BTofRawHit
+StInfo: StMuDstMaker::SetStatus 0 to BTofHeader
+StInfo: StMuDstMaker::SetStatus 0 to EztHead
+StInfo: StMuDstMaker::SetStatus 0 to EztTrig
+StInfo: StMuDstMaker::SetStatus 0 to EztETow
+StInfo: StMuDstMaker::SetStatus 0 to EztESmd
+StInfo: StMuDstMaker::SetStatus 0 to EztFpd
+StInfo: StMuDstMaker::SetStatus 1 to MuEvent
+StInfo: StMuDstMaker::SetStatus 1 to GlobalTracks
+StInfo: StMuDstMaker::SetStatus 1 to BTofHeader
+
+== Event 10000 start ==
+
+== Event 20000 start ==
+*** StMuException #55553 *** virtual void StMuDstMaker::read() *** end of input ***
+StInfo: *** StMuDstMaker::Make() == StEOF(2) ***
+Last  event processed. Status = 2
+StQAInfo: =================================================================================
+StQAInfo: QAInfo:Chain              StChain::bfcChain             Ast =259.19        Cpu =105.45
+StQAInfo: QAInfo:Maker            StXiMaker::StXiMakerAntiOmega   Ast =  0.38( 0.1%) Cpu =  0.23( 0.2%)
+StQAInfo: QAInfo:Maker            StXiMaker::StXiMakerthird       Ast =  0.34( 0.1%) Cpu =  0.29( 0.3%)
+StQAInfo: QAInfo:Maker            StXiMaker::StXiMakerAntiXi      Ast =  0.41( 0.2%) Cpu =  0.22( 0.2%)
+StQAInfo: QAInfo:Maker            StXiMaker::StXiMakerfirst       Ast =  0.40( 0.2%) Cpu =  0.28( 0.3%)
+StQAInfo: QAInfo:Maker            StV0Maker::v0makerthird         Ast =  0.35( 0.1%) Cpu =  0.23( 0.2%)
+StQAInfo: QAInfo:Maker            StV0Maker::v0makersecond        Ast =  0.35( 0.1%) Cpu =  0.24( 0.2%)
+StQAInfo: QAInfo:Maker            StV0Maker::v0makerfirst         Ast =  0.71( 0.3%) Cpu =  0.33( 0.3%)
+StQAInfo: QAInfo:Maker         StMuDstMaker::MuDst                Ast =256.25(98.9%) Cpu =103.63(98.3%)
+Total Events Processed in StXiMaker 0
+Total Events Processed in StXiMaker 0
+Total Events Processed in StXiMaker 0
+Total Events Processed in StXiMaker 0
+Total Events Processed in StV0Maker 0
+Total Events Processed in StV0Maker 0
+Total Events Processed in StV0Maker 0
+StInfo: --------------Error Codes-------------------------
+StInfo:      nStOK   nStWarn    nStEOF    nStErr  nStFatal
+StInfo:     228680         0         1         0         0
+StInfo: --------------------------------------------------
+               StMemStat::Summary(calls)        Min        Aver         Max         RMS 
+=============================================================================================
+              StMuDstMaker(MuDst)::Clear(28565)    0.000000    0.000000    0.000000    0.000000
+              StMuDstMaker(MuDst)::Make (28566)   -2.763680   -0.000209    8.735520    0.095177
+          StV0Maker(v0makerfirst)::Clear(28565)    0.000000    0.000000    0.000000    0.000000
+          StV0Maker(v0makerfirst)::Make (28565)    0.000000    0.000000    0.000000    0.000000
+         StV0Maker(v0makersecond)::Clear(28565)    0.000000    0.000000    0.000000    0.000000
+         StV0Maker(v0makersecond)::Make (28565)    0.000000    0.000000    0.000000    0.000000
+          StV0Maker(v0makerthird)::Clear(28565)    0.000000    0.000000    0.000000    0.000000
+          StV0Maker(v0makerthird)::Make (28565)    0.000000    0.000000    0.000000    0.000000
+    StXiMaker(StXiMakerAntiOmega)::Clear(28565)    0.000000    0.000000    0.000000    0.000000
+    StXiMaker(StXiMakerAntiOmega)::Make (28565)    0.000000    0.000000    0.000000    0.000000
+       StXiMaker(StXiMakerAntiXi)::Clear(28565)    0.000000    0.000000    0.000000    0.000000
+       StXiMaker(StXiMakerAntiXi)::Make (28565)    0.000000    0.000000    0.000000    0.000000
+        StXiMaker(StXiMakerfirst)::Clear(28565)    0.000000    0.000000    0.000000    0.000000
+        StXiMaker(StXiMakerfirst)::Make (28565)    0.000000    0.000000    0.000000    0.000000
+        StXiMaker(StXiMakerthird)::Clear(28565)    0.000000    0.000000    0.000000    0.000000
+        StXiMaker(StXiMakerthird)::Make (28565)    0.000000    0.000000    0.000000    0.000000
+---------------------------------------------------------------------------------------------
+                                   Total(16)   -2.763680   -0.000209    8.735520    0.095177
+=============================================================================================
+
+This is the end of ROOT -- Goodbye
+
