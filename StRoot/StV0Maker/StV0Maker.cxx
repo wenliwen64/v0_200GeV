@@ -818,7 +818,8 @@ Bool_t StV0Maker::pCutGoodEvents(StMuEvent* event){
 }
 
 Bool_t StV0Maker::pCutEventsTrigger(StMuEvent* event){
-    if(!event -> triggerIdCollection().nominal().isTrigger(mCutTriggerIdEq)) return false;
+    StTriggerId triggerId =event -> triggerIdCollection().nominal();
+    if(!triggerId.isTrigger(350003) && !triggerId.isTrigger(350013) && !triggerId.isTrigger(350023) && !triggerId.isTrigger(350033) && !triggerId.isTrigger(350043)) return false;
     else return true;
 }
 

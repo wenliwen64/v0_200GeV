@@ -1,15 +1,13 @@
-#ifndef StXiMaker_def// Generally, class cannot be defined (not the implementation) twice, so this prevent this occasion.
-#define StXiMaker_def
+#ifndef StV0Maker_def// Generally, class cannot be defined (not the implementation) twice, so this prevent this occasion.
+#define StV0Maker_def
 
 #include "StMaker.h"// Why we dont need to include StMuDstMaker.h??-----Because below "class StMuDstMaker" is called a forward declaration, and we only used the pointer or the reference of this type so we don't need to define it.
 #include "StMuDSTMaker/COMMON/StMuDstMaker.h"// StV0Maker's parameter 
 #include "StMuDSTMaker/COMMON/StMuEvent.h"// StV0Maker's parameter 
 #include "StMuDSTMaker/COMMON/StMuTrack.h"// StV0Maker's parameter 
 #include "TString.h"
-#include "StV0Maker.h"
-//#include "StV0Type.h"
-//#include "StV0Dst.h"
-#include "StXiDst.h"
+#include "StV0Type.h"
+#include "StV0Dst.h"
 #include "StPhysicalHelixD.hh"
 #include "StThreeVectorF.hh"
 #include <utility>
@@ -18,12 +16,12 @@
 #include "TH2.h"
 #include "TFile.h"
 #include "TTree.h"
-class StXiMaker: public StMaker{
+class StV0Maker: public StMaker{
 
     public:
 
-	StXiMaker(StMuDstMaker* muDstMaker, StV0Maker* mV0Maker, TString outHistoFileName, TString outPicoFileName ); 
-	virtual ~StXiMaker(){;}
+	StV0Maker(StMuDstMaker* muDstMaker, TString outHistoFileName, TString outPicoFileName, StV0Type v0Particle); 
+	virtual ~StV0Maker(){;}
 
 	void SetOutFileName(TString outFileName);
 	void SetRefMultiplicity(Int_t, Int_t);     // Actually I have no idea what does the reference multiplicity mean. I think maybe the multiplicity interval's upper and lower bounds.
@@ -31,38 +29,38 @@ class StXiMaker: public StMaker{
 	Int_t Init();
 	Int_t Make();
 	Int_t Finish();
+        const StV0Dst& getV0Dst() const{ return mV0Dst; }
 
     private:
 	//-------------------General Variables-----------------------------------
         TFile* mOutHistoFile;
-        TFile* mXiPicoDstFile;
+        TFile* mV0PicoDstFile;
 	TString mOutHistoFileName;
-	TString mXiPicoDstFileName;
+	TString mV0PicoDstFileName;
 	TString mBuffer;    // Temp buffer to store the string
-	//TString mV0ParticleName;   // Define the V0 particle name
+	TString mV0ParticleName;   // Define the V0 particle name
 	Double_t mRotation;    // Background Estimation
 	Double_t mSameSign;
 	Double_t mProtonMass;   // Define the daughters' masses and V0 mass 
 	Double_t mAntiProtonMass;
 	Double_t mPionMinusMass; 
 	Double_t mPionPlusMass;
-	Double_t mXiZeroMass;
-	Double_t mXiMinusMass;
-	Double_t mXiMassWidth;
+	Double_t mV0Mass;
+	Double_t mV0MassWidth;
 	TString mHInvariantMassName;    // Invariant mass spectrum name defined by user code
-	//StXiType mXiType;
-        //TClonesArray* mGlobalTracks;// To store the global tracks in each event being processed.
-        //TClonesArray* mPrimaryTracks;// To store the primary tracks in each event being processed.
-	//std::vector<std::pair<StMuTrack*, StMuTrack*> > pairTracksVector;
-	//std::vector<std::pair<StMuTrack*, StMuTrack*> > antiPairTracksVector;
-	//std::vector<std::pair<StThreeVectorF, StThreeVectorF> > momentumPairVector;
+	StV0Type mV0Type;
+        TClonesArray* mGlobalTracks;// To store the global tracks in each event being processed.
+        TClonesArray* mPrimaryTracks;// To store the primary tracks in each event being processed.
+	std::vector<std::pair<StMuTrack*, StMuTrack*> > pairTracksVector;
+	std::vector<std::pair<StMuTrack*, StMuTrack*> > antiPairTracksVector;
+	std::vector<std::pair<StThreeVectorF, StThreeVectorF> > momentumPairVector;
 	std::vector<std::pair<StThreeVectorF, StThreeVectorF> > antiMomentumPairVector;
 	StMuDstMaker* mMuDstMaker;
-        StV0Maker* mV0Maker;
 	Int_t mEventFailed;    // Record the events read unsuccessfully and successfully 
 	Int_t mEventPassed; 	
-	StXiDst mXiDst;	// PicoDst Data
-	TTree* mXiTree;  // Data Tree
+	StV0Dst mV0Dst;	// PicoDst Data
+       // const StV0Dst& getV0Dst() const{ return mV0Dst; }
+	TTree* mV0Tree;  // Data Tree
 
 
         //--------------------Cuts------------------------------------------------
@@ -80,7 +78,7 @@ class StXiMaker: public StMaker{
 	Double_t mCutDau2Dca2PVGrEq;  
 	Double_t mCutTwoTracksDcaLeEq;    // Two tracks dca cuts
 	Double_t mCutDecLengthGrEq;    // Cuts on decay length    
-	Double_t mCutDcaXi2PVLe;      // Cuts on v0 to PV distance
+	Double_t mCutDcaV02PVLe;      // Cuts on v0 to PV distance
 
         //---------------------Histograms----------------------------------------
 	//TH1F* hNPV;
@@ -108,19 +106,18 @@ class StXiMaker: public StMaker{
 	    //TH1F* hOrDiff;
             //TH1F* hPDiff;
 	    //TH1F* hDcaDiff;
-	TH1F* hXiPt;
+	TH1F* hV0Pt;
 	    //TH1F* hDau1Dca;
 	    //TH1F* hDau2Dca;
             //TH1F* hDau1Dca2;
 	    //TH1F* hDau2Dca2;
-	//TH1F* hXiZeroInvariantMass;
-	TH1F* hXiMinusInvariantMass;
+	TH1F* hV0InvariantMass;
+	TH1F* hAntiV0InvariantMass;
 
 	//---------------------Member functions------------------------ 
 	StThreeVectorF GetTrackDca2PV(StPhysicalHelixD&, StThreeVectorF&);    
 	Bool_t SetOutHistoFileName(TString);    
 	Bool_t SetOutDSTFileName(TString);
-        Bool_t pCutLambdaMass();// to be implemented
 	Bool_t pCutProtonNSigma(StMuTrack*);
 	Bool_t pCutAntiProtonNSigma(StMuTrack*);
 	Bool_t pCutPionMinusNSigma(StMuTrack*);
@@ -134,12 +131,12 @@ class StXiMaker: public StMaker{
         Bool_t pCutPt(Double_t);
         Bool_t pCutDau1Dca2PV(Double_t);
         Bool_t pCutDau2Dca2PV(Double_t);
-        Bool_t pCutDcaXi2PV(Double_t);
+        Bool_t pCutDcaV02PV(Double_t);
         Bool_t pCutTwoTracksDca(Double_t);
         Bool_t pCutDecLength(Double_t);
 
 	//------------------Macro for CINT compatability-------------------
-	ClassDef(StXiMaker,1) // protected: no use because it has no derived classes.
+	ClassDef(StV0Maker,1) // protected: no use because it has no derived classes.
     
 };
 #endif

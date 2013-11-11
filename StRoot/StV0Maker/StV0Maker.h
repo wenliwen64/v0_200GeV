@@ -58,6 +58,7 @@ class StV0Maker: public StMaker{
 	Int_t mEventFailed;    // Record the events read unsuccessfully and successfully 
 	Int_t mEventPassed; 	
 	StV0Dst mV0Dst;	// PicoDst Data
+        const StV0Dst& getV0Dst() const{ return mV0Dst; }
 	TTree* mV0Tree;  // Data Tree
 
 
