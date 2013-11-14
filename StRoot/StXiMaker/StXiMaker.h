@@ -137,7 +137,7 @@ class StXiMaker: public StMaker{
         Bool_t pCutDcaXi2PV(Double_t);
         Bool_t pCutTwoTracksDca(Double_t);
         Bool_t pCutDecLength(Double_t);
-
+        Bool_t pCutV0Mass(Double_t);
 	//------------------Macro for CINT compatability-------------------
 	ClassDef(StXiMaker,1) // protected: no use because it has no derived classes.
     

@@ -6,7 +6,7 @@ void Macro(TString inputFileList, Int_t nFiles, TString outputDir, TString jobID
   //TString inputFile("test.27GeV.MuDst.root");
   TString outPicoFileName = outputDir + jobID + "2013Pico.root";
   TString outHistoFileName = outputDir + jobID + "2013Histo.root";
-  Int_t nEvents = 100000;
+  Int_t nEvents = 50000;
 
   StV0Type V0Type = kLambda;
 

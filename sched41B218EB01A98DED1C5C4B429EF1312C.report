@@ -1,0 +1,94 @@
+STAR Unified Meta Scheduler 1.10.8
+File generated at : Tue Nov 12 11:13:59 EST 2013
+This file is a detailed report of SUMS meta job 41B218EB01A98DED1C5C4B429EF1312C and its 10 processes.
+
+Jobs table :
++-------------------------------------------------------------Jobs Of Request 41B218EB01A98DED1C5C4B429EF1312C---------------------------------------------------------------+
++------------------------------------+------------------------+-------+--------+------------+--------+-----------------------+----------------------+---------+--------------+
+| Job_ID                             | Queue                  | Files | Events | estRunTime | Target | SubmitTime            | Dispatcher           | Success | DispatchTime |
++------------------------------------+------------------------+-------+--------+------------+--------+-----------------------+----------------------+---------+--------------+
+| 41B218EB01A98DED1C5C4B429EF1312C_0 | bnl_condor_short_quick | 10    | 1718   | n/a        | Any    | 12/11/2013 11:13:57AM | CondorFastDispatcher | YES     | 1ms          |
+| 41B218EB01A98DED1C5C4B429EF1312C_1 | bnl_condor_short_quick | 10    | 2502   | n/a        | Any    | 12/11/2013 11:13:57AM | CondorFastDispatcher | YES     | 1ms          |
+| 41B218EB01A98DED1C5C4B429EF1312C_2 | bnl_condor_short_quick | 10    | 5019   | n/a        | Any    | 12/11/2013 11:13:57AM | CondorFastDispatcher | YES     | 1ms          |
+| 41B218EB01A98DED1C5C4B429EF1312C_3 | bnl_condor_short_quick | 10    | 26794  | n/a        | Any    | 12/11/2013 11:13:57AM | CondorFastDispatcher | YES     | 1ms          |
+| 41B218EB01A98DED1C5C4B429EF1312C_4 | bnl_condor_short_quick | 10    | 51571  | n/a        | Any    | 12/11/2013 11:13:57AM | CondorFastDispatcher | YES     | 1ms          |
+| 41B218EB01A98DED1C5C4B429EF1312C_5 | bnl_condor_short_quick | 10    | 79987  | n/a        | Any    | 12/11/2013 11:13:56AM | CondorFastDispatcher | YES     | 1ms          |
+| 41B218EB01A98DED1C5C4B429EF1312C_6 | bnl_condor_short_quick | 10    | 96253  | n/a        | Any    | 12/11/2013 11:13:56AM | CondorFastDispatcher | YES     | 1ms          |
+| 41B218EB01A98DED1C5C4B429EF1312C_7 | bnl_condor_short_quick | 10    | 112236 | n/a        | Any    | 12/11/2013 11:13:56AM | CondorFastDispatcher | YES     | 1ms          |
+| 41B218EB01A98DED1C5C4B429EF1312C_8 | bnl_condor_short_quick | 10    | 122214 | n/a        | Any    | 12/11/2013 11:13:56AM | CondorFastDispatcher | YES     | 1ms          |
+| 41B218EB01A98DED1C5C4B429EF1312C_9 | bnl_condor_short_quick | 10    | 120798 | n/a        | Any    | 12/11/2013 11:13:56AM | CondorFastDispatcher | YES     | 1ms          |
++------------------------------------+------------------------+-------+--------+------------+--------+-----------------------+----------------------+---------+--------------+
+Request object report :
+ 
++---------------------------------------------Queues-----------------------------------------------+
++-------------------------+------+--------+-----------+--------+-------+--------+------------------+
+| ID                      | Name | Type   | TimeLimit | MaxMem | Local | S.O.P. | Cluster          |
++-------------------------+------+--------+-----------+--------+-------+--------+------------------+
+| bnl_condor_short_quick  |      | CONDOR | 180min    | 350MB  | N     | 1      | rcrs.rcf.bnl.gov |
+| BNL_condor_medium_quick |      | CONDOR | 300min    | 400MB  | N     | 50     | rcrs.rcf.bnl.gov |
+| bnl_condor_long_quick   |      | CONDOR | 14400min  | 440MB  | N     | 100    | rcrs.rcf.bnl.gov |
++-------------------------+------+--------+-----------+--------+-------+--------+------------------+
+
+*************************************************************************
+
+*   This is a history of Job assignments.                               *
+
+*   If your Jobs are going to the wrong queue, this may tell you why.   *
+
+*************************************************************************
+
+
+
+
+Job object 41B218EB01A98DED1C5C4B429EF1312C_0 report :
+ 41B218EB01A98DED1C5C4B429EF1312C_0 trying (bnl_condor_short_quick)
+41B218EB01A98DED1C5C4B429EF1312C_0 assigned to (bnl_condor_short_quick)
+ 
+
+Job object 41B218EB01A98DED1C5C4B429EF1312C_1 report :
+ 41B218EB01A98DED1C5C4B429EF1312C_1 trying (bnl_condor_short_quick)
+41B218EB01A98DED1C5C4B429EF1312C_1 assigned to (bnl_condor_short_quick)
+ 
+
+Job object 41B218EB01A98DED1C5C4B429EF1312C_2 report :
+ 41B218EB01A98DED1C5C4B429EF1312C_2 trying (bnl_condor_short_quick)
+41B218EB01A98DED1C5C4B429EF1312C_2 assigned to (bnl_condor_short_quick)
+ 
+
+Job object 41B218EB01A98DED1C5C4B429EF1312C_3 report :
+ 41B218EB01A98DED1C5C4B429EF1312C_3 trying (bnl_condor_short_quick)
+41B218EB01A98DED1C5C4B429EF1312C_3 assigned to (bnl_condor_short_quick)
+ 
+
+Job object 41B218EB01A98DED1C5C4B429EF1312C_4 report :
+ 41B218EB01A98DED1C5C4B429EF1312C_4 trying (bnl_condor_short_quick)
+41B218EB01A98DED1C5C4B429EF1312C_4 assigned to (bnl_condor_short_quick)
+ 
+
+Job object 41B218EB01A98DED1C5C4B429EF1312C_5 report :
+ 41B218EB01A98DED1C5C4B429EF1312C_5 trying (bnl_condor_short_quick)
+41B218EB01A98DED1C5C4B429EF1312C_5 assigned to (bnl_condor_short_quick)
+ 
+
+Job object 41B218EB01A98DED1C5C4B429EF1312C_6 report :
+ 41B218EB01A98DED1C5C4B429EF1312C_6 trying (bnl_condor_short_quick)
+41B218EB01A98DED1C5C4B429EF1312C_6 assigned to (bnl_condor_short_quick)
+ 
+
+Job object 41B218EB01A98DED1C5C4B429EF1312C_7 report :
+ 41B218EB01A98DED1C5C4B429EF1312C_7 trying (bnl_condor_short_quick)
+41B218EB01A98DED1C5C4B429EF1312C_7 assigned to (bnl_condor_short_quick)
+ 
+
+Job object 41B218EB01A98DED1C5C4B429EF1312C_8 report :
+ 41B218EB01A98DED1C5C4B429EF1312C_8 trying (bnl_condor_short_quick)
+41B218EB01A98DED1C5C4B429EF1312C_8 assigned to (bnl_condor_short_quick)
+ 
+
+Job object 41B218EB01A98DED1C5C4B429EF1312C_9 report :
+ 41B218EB01A98DED1C5C4B429EF1312C_9 trying (bnl_condor_short_quick)
+41B218EB01A98DED1C5C4B429EF1312C_9 assigned to (bnl_condor_short_quick)
+ 
+
+End of Report
+

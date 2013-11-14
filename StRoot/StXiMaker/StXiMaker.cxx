@@ -427,6 +427,8 @@ Int_t StXiMaker::Make() {
     for(Int_t i = 0; i < numberOfV0; i++){
         //eliminate anti-Lambda particles
         if(v0Dst.v0Type[i] == 0) continue;
+        //apply the mass cut
+        if(!pCutV0Mass(v0Dst.v0Mass[i])) continue;
         //reconstruct v0(Lambda) particle's pv and momentum
         StThreeVectorF  pv0(v0Dst.v0Px[i], v0Dst.v0Py[i], v0Dst.v0Pz[i]);
         StThreeVectorF  xv0(v0Dst.v0X[i], v0Dst.v0Y[i], v0Dst.v0Z[i]); 
@@ -836,4 +838,8 @@ Bool_t StXiMaker::pCutDcaXi2PV(Double_t xiDca2PV){
     else return true;
 }
 
+Bool_t StXiMaker::pCutV0Mass(Double_t v0Mass){
+    if(v0Mass < 1 || v0Mass > 1.2) return false;
+    else return true;
+}
 

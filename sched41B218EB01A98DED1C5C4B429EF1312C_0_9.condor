@@ -1,0 +1,150 @@
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/lwen1990/ucla/v0_200GeV_Liwen/sched41B218EB01A98DED1C5C4B429EF1312C_9.csh
+Output         = /star/u/lwen1990/ucla/v0_200GeV_Liwen/testOutput/41B218EB01A98DED1C5C4B429EF1312C_9.out
+Error          = /star/u/lwen1990/ucla/v0_200GeV_Liwen/testOutput/41B218EB01A98DED1C5C4B429EF1312C_9.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/lwen1990/ucla/v0_200GeV_Liwen/sched41B218EB01A98DED1C5C4B429EF1312C_9.condor.log
+Initialdir     = /star/u/lwen1990/ucla/v0_200GeV_Liwen
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/lwen1990/ucla/v0_200GeV_Liwen/sched41B218EB01A98DED1C5C4B429EF1312C_8.csh
+Output         = /star/u/lwen1990/ucla/v0_200GeV_Liwen/testOutput/41B218EB01A98DED1C5C4B429EF1312C_8.out
+Error          = /star/u/lwen1990/ucla/v0_200GeV_Liwen/testOutput/41B218EB01A98DED1C5C4B429EF1312C_8.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/lwen1990/ucla/v0_200GeV_Liwen/sched41B218EB01A98DED1C5C4B429EF1312C_8.condor.log
+Initialdir     = /star/u/lwen1990/ucla/v0_200GeV_Liwen
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/lwen1990/ucla/v0_200GeV_Liwen/sched41B218EB01A98DED1C5C4B429EF1312C_7.csh
+Output         = /star/u/lwen1990/ucla/v0_200GeV_Liwen/testOutput/41B218EB01A98DED1C5C4B429EF1312C_7.out
+Error          = /star/u/lwen1990/ucla/v0_200GeV_Liwen/testOutput/41B218EB01A98DED1C5C4B429EF1312C_7.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/lwen1990/ucla/v0_200GeV_Liwen/sched41B218EB01A98DED1C5C4B429EF1312C_7.condor.log
+Initialdir     = /star/u/lwen1990/ucla/v0_200GeV_Liwen
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/lwen1990/ucla/v0_200GeV_Liwen/sched41B218EB01A98DED1C5C4B429EF1312C_6.csh
+Output         = /star/u/lwen1990/ucla/v0_200GeV_Liwen/testOutput/41B218EB01A98DED1C5C4B429EF1312C_6.out
+Error          = /star/u/lwen1990/ucla/v0_200GeV_Liwen/testOutput/41B218EB01A98DED1C5C4B429EF1312C_6.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/lwen1990/ucla/v0_200GeV_Liwen/sched41B218EB01A98DED1C5C4B429EF1312C_6.condor.log
+Initialdir     = /star/u/lwen1990/ucla/v0_200GeV_Liwen
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/lwen1990/ucla/v0_200GeV_Liwen/sched41B218EB01A98DED1C5C4B429EF1312C_5.csh
+Output         = /star/u/lwen1990/ucla/v0_200GeV_Liwen/testOutput/41B218EB01A98DED1C5C4B429EF1312C_5.out
+Error          = /star/u/lwen1990/ucla/v0_200GeV_Liwen/testOutput/41B218EB01A98DED1C5C4B429EF1312C_5.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/lwen1990/ucla/v0_200GeV_Liwen/sched41B218EB01A98DED1C5C4B429EF1312C_5.condor.log
+Initialdir     = /star/u/lwen1990/ucla/v0_200GeV_Liwen
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/lwen1990/ucla/v0_200GeV_Liwen/sched41B218EB01A98DED1C5C4B429EF1312C_4.csh
+Output         = /star/u/lwen1990/ucla/v0_200GeV_Liwen/testOutput/41B218EB01A98DED1C5C4B429EF1312C_4.out
+Error          = /star/u/lwen1990/ucla/v0_200GeV_Liwen/testOutput/41B218EB01A98DED1C5C4B429EF1312C_4.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/lwen1990/ucla/v0_200GeV_Liwen/sched41B218EB01A98DED1C5C4B429EF1312C_4.condor.log
+Initialdir     = /star/u/lwen1990/ucla/v0_200GeV_Liwen
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/lwen1990/ucla/v0_200GeV_Liwen/sched41B218EB01A98DED1C5C4B429EF1312C_3.csh
+Output         = /star/u/lwen1990/ucla/v0_200GeV_Liwen/testOutput/41B218EB01A98DED1C5C4B429EF1312C_3.out
+Error          = /star/u/lwen1990/ucla/v0_200GeV_Liwen/testOutput/41B218EB01A98DED1C5C4B429EF1312C_3.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/lwen1990/ucla/v0_200GeV_Liwen/sched41B218EB01A98DED1C5C4B429EF1312C_3.condor.log
+Initialdir     = /star/u/lwen1990/ucla/v0_200GeV_Liwen
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/lwen1990/ucla/v0_200GeV_Liwen/sched41B218EB01A98DED1C5C4B429EF1312C_2.csh
+Output         = /star/u/lwen1990/ucla/v0_200GeV_Liwen/testOutput/41B218EB01A98DED1C5C4B429EF1312C_2.out
+Error          = /star/u/lwen1990/ucla/v0_200GeV_Liwen/testOutput/41B218EB01A98DED1C5C4B429EF1312C_2.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/lwen1990/ucla/v0_200GeV_Liwen/sched41B218EB01A98DED1C5C4B429EF1312C_2.condor.log
+Initialdir     = /star/u/lwen1990/ucla/v0_200GeV_Liwen
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/lwen1990/ucla/v0_200GeV_Liwen/sched41B218EB01A98DED1C5C4B429EF1312C_1.csh
+Output         = /star/u/lwen1990/ucla/v0_200GeV_Liwen/testOutput/41B218EB01A98DED1C5C4B429EF1312C_1.out
+Error          = /star/u/lwen1990/ucla/v0_200GeV_Liwen/testOutput/41B218EB01A98DED1C5C4B429EF1312C_1.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/lwen1990/ucla/v0_200GeV_Liwen/sched41B218EB01A98DED1C5C4B429EF1312C_1.condor.log
+Initialdir     = /star/u/lwen1990/ucla/v0_200GeV_Liwen
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
+Universe       = vanilla
+Notification        = never
+Executable     = /star/u/lwen1990/ucla/v0_200GeV_Liwen/sched41B218EB01A98DED1C5C4B429EF1312C_0.csh
+Output         = /star/u/lwen1990/ucla/v0_200GeV_Liwen/testOutput/41B218EB01A98DED1C5C4B429EF1312C_0.out
+Error          = /star/u/lwen1990/ucla/v0_200GeV_Liwen/testOutput/41B218EB01A98DED1C5C4B429EF1312C_0.err
+Requirements   = (CPU_Experiment == "star")
+Log            = /star/u/lwen1990/ucla/v0_200GeV_Liwen/sched41B218EB01A98DED1C5C4B429EF1312C_0.condor.log
+Initialdir     = /star/u/lwen1990/ucla/v0_200GeV_Liwen
++Experiment     = "star"
++Job_Type       = "cas"
+kill_sig        = SIGINT
+PeriodicRemove  = (NumJobStarts >=1 && JobStatus==1) || (JobStatus == 2 && (CurrentTime - JobCurrentStartDate > (54000)) && ((RemoteUserCpu+RemoteSysCpu)/(CurrentTime-JobCurrentStartDate) < 0.10)) || (((CurrentTime - EnteredCurrentStatus) > (2*24*3600)) && JobStatus == 5) || (JobRunCount >= 1 && JobStatus == 1)
+Priority        = +10
+Queue
+
