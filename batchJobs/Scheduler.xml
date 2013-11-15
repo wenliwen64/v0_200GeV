@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?> 
-<job  minFilesPerProcess="10" maxFilesPerProcess="20" fileListSyntax="xrootd"> 
+<job  minFilesPerProcess="1" maxFilesPerProcess="2" fileListSyntax="xrootd"> 
    <command>
 	/star/u/lwen1990/ucla/v0_200GeV_Liwen/runv0.csh $FILELIST $INPUTFILECOUNT testOutput/ $JOBID
    </command>

@@ -1,9 +1,9 @@
 /testOutput/
 /*session.xml 
 /*condor.log 
-/*list 
-/*condor 
-/*dataset 
-/*report 
+/*.list 
+/*.condor 
+/*.dataset 
+/*.report 
 /sched*.csh
 /exampleOfFengZhao/
