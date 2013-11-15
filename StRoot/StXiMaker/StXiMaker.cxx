@@ -1,6 +1,6 @@
 //#define DEBUGXI
 //#define DEBUGXI_HISTO 1
-#define DEBUGXIMASS 1
+//#define DEBUGXIMASS 1
 #include "TTree.h"
 #include "TFile.h"
 #include "StXiMaker.h"
@@ -63,15 +63,15 @@ mXiTree(NULL),
 mCutAbsPrimaryVertexZLeEq(50.0),
 mCutNHitsGrEq(15),
 mCutPtGrEq(0.15),
-mCutNSigmaPionLe(2.0),
-mCutNSigmaProtonLe(1.5),
+mCutNSigmaPionLe(4.0),
+mCutNSigmaProtonLe(4.0),
 mCutNSigmaElectronLe(4.0),
 mCutNSigmaKaonLe(4.0),
 mCutDau1Dca2PVGrEq(3),
 mCutDau2Dca2PVGrEq(3),
 mCutTwoTracksDcaLeEq(1.0),
 mCutDecLengthGrEq(2.0),
-mCutDcaXi2PVLe(5.0){
+mCutDcaXi2PVLe(2.0){
 
 //    std::vector<std::pair<StMuTrack*, StMuTrack*> > pairTracksVector;
 //    std::vector<std::pair<StMuTrack*, StMuTrack*> > antiPairTracksVector;
@@ -260,13 +260,13 @@ Int_t StXiMaker::Make() {
     mXiDst.nRefMult = muEvent -> refMult();
     mXiDst.nRefMultTof = muEvent -> btofTrayMultiplicity();
     mXiDst.magneticField = muEvent -> runInfo().magneticField(); 
-    mXiDst.PVX = v0Dst.PVX;//TODO: check this item. mXiDst.PVX = muEvent -> primaryVertexPosition().x();  
+    mXiDst.PVX = v0Dst.PVX;// mXiDst.PVX = muEvent -> primaryVertexPosition().x();  
     mXiDst.PVY = v0Dst.PVY;//muEvent -> primaryVertexPosition().y();  
     mXiDst.PVZ = v0Dst.PVZ;//muEvent -> primaryVertexPosition().z();  
     //-----------Fill event-wise information histograms------------------------------------------------------------------------------- 
     hRefMult -> Fill(muEvent -> refMult());//I dont get what does refMult mean
     //------------------------------------------------------------------------------------------------------------------------------------------------
-    StThreeVectorF pv(mXiDst.PVX, mXiDst.PVY, mXiDst.PVZ);//TODO: check
+    StThreeVectorF pv(mXiDst.PVX, mXiDst.PVY, mXiDst.PVZ);//
     int numberOfXi = 0;
     //#ifdef DEBUGXI
     //    else printf("Event OK!\n");  
@@ -369,7 +369,7 @@ Int_t StXiMaker::Make() {
 	else printf("Charge +-1!\n");
 #endif
 	//StThreeVectorF primaryVertexPosition = muEvent->primaryVertexPosition();
-	if(1){ //TODO: Include Lambda and AntiLambda
+	if(1){ //
 #ifdef DEBUGXI
 	    printf("kLambda begins\n");
 #endif
@@ -460,7 +460,7 @@ Int_t StXiMaker::Make() {
 
 	    Double_t rDotP = xXi2PV.dot(pXi);
 	    Double_t dcaXi2PV = sqrt(xXi2PV.mag2() -(rDotP * rDotP)/(pXi * pXi));
-            StPhysicalHelixD helixXi(pXi, xXi, 0, 0);//TODO: check the initialization.
+            StPhysicalHelixD helixXi(pXi, xXi, 0, 0);//
 
 	    if(!pCutDcaXi2PV(dcaXi2PV)) continue;
 #ifdef DEBUGXI
