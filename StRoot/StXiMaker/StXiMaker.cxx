@@ -1,5 +1,6 @@
-#define DEBUGXI
+//#define DEBUGXI
 //#define DEBUGXI_HISTO 1
+#define DEBUGXIMASS 1
 #include "TTree.h"
 #include "TFile.h"
 #include "StXiMaker.h"
@@ -68,8 +69,8 @@ mCutNSigmaElectronLe(4.0),
 mCutNSigmaKaonLe(4.0),
 mCutDau1Dca2PVGrEq(3),
 mCutDau2Dca2PVGrEq(3),
-mCutTwoTracksDcaLeEq(1.5),
-mCutDecLengthGrEq(3.0),
+mCutTwoTracksDcaLeEq(1.0),
+mCutDecLengthGrEq(2.0),
 mCutDcaXi2PVLe(5.0){
 
 //    std::vector<std::pair<StMuTrack*, StMuTrack*> > pairTracksVector;
@@ -452,7 +453,10 @@ Int_t StXiMaker::Make() {
 	    Double_t dcaTwoTracks = closestDistance(v0Helix, pionMinusHelix, magneticField, primaryVertexPosition, xXi, op1, op2); 
 
 	    StThreeVectorF xXi2PV = xXi - primaryVertexPosition;
-	    StThreeVectorD pXi = op1 + op2;
+	    // totoally wrong, because I have to use the momentum of V0 stored in picodst StThreeVectorF pXi = op1 + op2;
+            StThreeVectorF pLambda(v0Dst.v0Px[i], v0Dst.v0Py[i], v0Dst.v0Pz[i]);            
+            op1 = pLambda;
+            StThreeVectorF pXi = op1 + op2;
 
 	    Double_t rDotP = xXi2PV.dot(pXi);
 	    Double_t dcaXi2PV = sqrt(xXi2PV.mag2() -(rDotP * rDotP)/(pXi * pXi));
@@ -481,8 +485,14 @@ Int_t StXiMaker::Make() {
 
 		Double_t v0E = sqrt(v0Dst.v0Mass[i]*v0Dst.v0Mass[i] + momentumPair.first.mag2());
 		Double_t pionMinusE = sqrt(mPionMinusMass * mPionMinusMass + momentumPair.second.mag2());
-
+#ifdef DEBUGXIMASS
+                printf("v0E = %lf GeV, pionMinusE = %lf GeV, ", v0E, pionMinusE);
+#endif
 		StThreeVectorF momentumSumTwoTracks = momentumPair.first + momentumPair.second;// what is the difference between helix's and track's momenta
+#ifdef DEBUGXIMASS
+                printf("momentumSum = %lf GeV/c\n", momentumSumTwoTracks.mag());
+#endif
+
 		Double_t xiMinusInvariantMass = sqrt((v0E + pionMinusE) * (v0E + pionMinusE) - momentumSumTwoTracks.mag2());
 #ifdef DEBUGXI
 		printf("Mass Calculation OK!\n");

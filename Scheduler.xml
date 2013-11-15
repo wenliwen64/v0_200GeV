@@ -7,7 +7,7 @@
    <stdout URL="file:/star/u/lwen1990/ucla/v0_200GeV_Liwen/testOutput/$JOBID.out"/>
    <stderr URL="file:/star/u/lwen1990/ucla/v0_200GeV_Liwen/testOutput/$JOBID.err"/>
 
-   <input URL="catalog:star.bnl.gov?storage=HPSS,production=P11id,trgsetupname=AuAu200_production_2011,filetype=daq_reco_MuDst,filename~st_physics" nFiles="100" />
+   <input URL="catalog:star.bnl.gov?storage=HPSS,production=P11id,trgsetupname=AuAu200_production_2011,filetype=daq_reco_MuDst,filename~st_physics" nFiles="500" />
 
 </job>
 
